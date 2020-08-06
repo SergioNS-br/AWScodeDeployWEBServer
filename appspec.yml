@@ -17,7 +17,6 @@ hooks:
     - location: scripts/BeforeInstall.sh
       timeout: 300
       runas: root
-    - location: Scripts/UnzipDataBundle.sh
   AfterInstall:
     - location: scripts/AfterInstall.sh
       timeout: 30
